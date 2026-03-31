@@ -20,4 +20,4 @@ Procedimiento.
 7. Descargar CSV en maquina virtual con comando: wget https://www.datos.gov.co/resource/ckxe-iu4k.csv
 8. Configurar entorno batch con comando: nano batch_beneficiarios.py
 9. Ejecutar batch con comando: spark-submit batch_beneficiarios.py
-10. Se ejecutara en pantalla el analisis de los datos.
+10. Se ejecutara en pantalla el analisis de los datos
