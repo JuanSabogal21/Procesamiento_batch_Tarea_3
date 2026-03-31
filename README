@@ -1,0 +1,23 @@
+Beneficiarios Más Familias en Acción – Vista filtrada Puente Nacional, Santander.
+
+Descripción.
+Los beneficiarios de Familias en Acción en Puente Nacional, Santander. Enfrentan desafíos, los cuales son el acceso al programa de beneficiarios más Familias en Acción; 
+en los datos se identifican las personas con sus datos, mostrando si es activo o no, además de datos relacionados al programa. En el caso de Colombia, 
+el aumento o variabilidad en los beneficiarios del programa de más Familias en Acción hace necesario el uso de herramientas de Big Data para analizar grandes volúmenes de información.
+
+Fuente de datos.
+
+Datos Abiertos Colombia.
+https://www.datos.gov.co/Inclusi-n-Social-y-Reconciliaci-n/Beneficiarios-M-s-Familias-en-Acci-n-Vista-filtrad/ckxe-iu4k/about_data
+
+Procedimiento.
+1. Abrir entorno VirtualBox
+2. iniciar sesion con: Usuario: vboxuser Password: bigdata
+3. Copiar Ipv4
+4. Abrir Putty
+5. Pegar Ip en HostName
+6. Iniciar Hadoop con: Usuario: Hadoop Password: Hadoop
+7. Descargar CSV en maquina virtual con comando: wget https://www.datos.gov.co/resource/ckxe-iu4k.csv
+8. Configurar entorno batch con comando: nano batch_beneficiarios.py
+9. Ejecutar batch con comando: spark-submit batch_beneficiarios.py
+10. Se ejecutara en pantalla el analisis de los datos.
